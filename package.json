@@ -1,0 +1,29 @@
+{
+  "name": "javascript-restaurant-page",
+  "version": "1.0.0",
+  "description": "this is a restaurant page created using javascript for the odin project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SMaseko-dev/javascript-restaurant-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SMaseko-dev/javascript-restaurant-page/issues"
+  },
+  "homepage": "https://github.com/SMaseko-dev/javascript-restaurant-page#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.100.2",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
