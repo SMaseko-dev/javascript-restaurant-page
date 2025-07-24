@@ -1,3 +1,70 @@
 body{
-    background-color: blue;
+    width: 80rem;
+    height: 45rem;
+    background-color: black;
+    color: white;
+    font-family: roboto;
+}
+
+header{
+    height: 5%;
+    width: 100%;
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+
+button{
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-right: 2rem;
+    border: none;
+    border-radius: 0.3rem;
+    box-shadow: 1px 1px 1px rgb(131, 105, 58);
+}
+
+.content{
+    border: 1px solid black;
+    width: 100%;
+    height: 94%;
+}
+
+h1{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: rgb(131, 105, 58);
+}
+
+img{
+    width: 100%;
+    height: 70%;
+}
+
+#menu-container{
+    border: 1px solid rgb(131, 105, 58);
+    color: rgb(131, 105, 58);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 30rem;
+    font-size: 2rem;
+}
+
+#about-container{
+    border: 1px solid rgb(131, 105, 58);
+    color: rgb(131, 105, 58);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 30rem;
+    font-size: 2rem;
 }
